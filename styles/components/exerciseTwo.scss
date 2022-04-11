@@ -1,0 +1,47 @@
+.exercise-two {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-bottom: 100px;
+
+  &__header {
+    text-align: center;
+    padding: 100px 0;
+  }
+
+  &__content {
+    padding: 0 20px 80px 20px;
+  }
+
+  &__accordion {
+    display: block;
+    visibility: visible;
+    @include media($desktop...) {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  &__tabs {
+    display: none;
+    visibility: hidden;
+    @include media($desktop...) {
+      display: block;
+      visibility: visible;
+    }
+  }
+
+  &__banana {
+    padding-top: 60px;
+    h3 {
+      font-size: 1.25rem;
+      text-align: center;
+      margin-bottom: 20px;
+
+      @include media($desktop...) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

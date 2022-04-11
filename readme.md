@@ -1,40 +1,23 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+## Edward Vercoe - MindArc front-end assessment submission
 
-Exercise 1
----
-Build a responsive page based on the designs.
+Thank you for the oportunity to complete the frontend technical assessment. It was a lot of fun to work through and create these exercises.
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+I decided to go with the following tech stack: React, NextJS and SASS along with framer-motion for the animation library.
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+## Set up and viewing the assessment
 
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
+First, run the development server:
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+## Thank you
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+One last thank you for the oportunity! Excited for any feedback available.
+Please reach out via email here:
+edward.vercoe@gmail.com

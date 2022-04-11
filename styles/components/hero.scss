@@ -1,0 +1,36 @@
+.hero {
+  position: relative;
+  height: 375px;
+  color: #fff;
+  background-color: #8f8f8f;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+
+  &__copy {
+    position: relative;
+    text-align: center;
+  }
+
+  &__bg-mobile {
+    display: block;
+    visibility: visible;
+
+    @include media($desktop...) {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  &__bg-desktop {
+    display: none;
+    visibility: hidden;
+    @include media($desktop...) {
+      display: block;
+      visibility: visible;
+    }
+  }
+}
