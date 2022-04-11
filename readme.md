@@ -6,7 +6,13 @@ I decided to go with the following tech stack: React, NextJS and SASS along with
 
 ## Set up and viewing the assessment
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -19,9 +25,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Once localhost is open you will be able to access both exercises with the following links:
 
 Exercise 1: [http://localhost:3000/exercise-1](http://localhost:3000/exercise-1)
+
 Exercise 2: [http://localhost:3000/exercise-2](http://localhost:3000/exercise-2)
 
 Alternatively you can view a deployed live version of the assessment here:
+
 [https://edward-vercoe-front-end-assessment.netlify.app](https://edward-vercoe-front-end-assessment.netlify.app)
 
 ## Thank you
