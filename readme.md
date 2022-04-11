@@ -16,6 +16,14 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Once localhost is open you will be able to access both exercises with the following links:
+
+Exercise 1: [http://localhost:3000/exercise-1](http://localhost:3000/exercise-1)
+Exercise 2: [http://localhost:3000/exercise-2](http://localhost:3000/exercise-2)
+
+Alternatively you can view a deployed live version of the assessment here:
+[https://edward-vercoe-front-end-assessment.netlify.app](https://edward-vercoe-front-end-assessment.netlify.app)
+
 ## Thank you
 
 One last thank you for the oportunity! Excited for any feedback available.
